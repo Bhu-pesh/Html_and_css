@@ -1,0 +1,102 @@
+.header {
+    background-color: lightseagreen;
+    height : 80px;
+}
+
+h2 {
+    margin-left : 50%;
+    margin-top : 30px;
+    color : white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+img {
+    width : 200px;
+    height : 200px;
+    margin : 20px;
+    
+}
+
+#images {
+    margin-top : 30px;
+    }
+
+#first-row {
+    margin : auto;
+}
+
+#second-row {   
+    border : 15px solid goldenrod;
+}
+
+#third-row {
+    align-content: center;
+}
+
+#food_love {
+    width : 70%;
+    margin : auto;
+    background-color: lightseagreen;
+    border-left : 10px solid crimson;
+    border-top : 10px solid green;
+    border-right : 10px solid magenta;
+    border-bottom : 10px solid blue;
+}
+
+#food_love > h4 {
+    text-align: center;
+    color : white;
+    font-size : 1.7rem; 
+}
+
+p {
+    color : white;
+    font-size : 1.4rem;
+    padding : 5px;
+}
+
+#first {
+    border : 10px solid lightseagreen; 
+    
+}
+
+#second {
+    border : 10px dashed lightseagreen; 
+}
+
+#third {
+    border : 10px dotted lightseagreen; 
+}
+
+#forth {
+    border : 10px inset lightseagreen; 
+}
+
+#fifth {
+    border : 10px outset lightseagreen; 
+}
+
+#sixth {
+    border : 10px double lightseagreen; 
+}
+
+#footer {
+    background-color: lightseagreen;
+    height : 80px;
+    margin-top : 30px;
+    
+}
+
+a {
+    text-decoration : none;
+    color : white;
+    font-size : 1.4rem;
+    margin : 20px 20px;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color : blue;
+}
