@@ -1,0 +1,90 @@
+#header {
+    background-color: rgb(206, 42, 42);
+    height : 80px;
+    font-family:  Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+    color : whitesmoke
+    
+}
+
+h2 {
+    padding :25px 50%;   
+    border : 1px solid red;
+    height: 15px;
+    width : 150px;
+}
+
+ img {
+    width : 250px;
+    height : 250px;
+    border-radius: 50%;
+    margin-left : 50%;
+    margin-top : 30px;
+    
+}
+
+a {
+    text-decoration: none;
+    color : white;
+}
+
+h1 {
+    border : 2px solid red;
+    margin-left : 50%;
+    width :fit-content;
+    padding : 10px 30px;
+
+}
+
+#netflix {
+    width: fit-content;
+    margin-left : 50%;
+    margin-top : 15px;
+    border : 1px solid rgb(206, 42, 42);
+    padding : 10px 20px;
+    font-size : 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color : white;
+    background-color: rgb(206, 42, 42);
+}
+
+#netflix:hover {
+    border-style : groove;
+}
+
+#watchlater {
+    margin-left : 50%;
+    margin-top : 5px;
+    border : 1px solid rgb(206, 42, 42);
+    padding : 10px 20px;
+    font-size : 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color : black;
+    
+}
+#footer {
+    background-color: rgb(206, 42, 42);
+    justify-content: center;
+    height : 100px;
+    margin-top : 20px;
+    font-family:  Tahoma, 'Segoe UI', Geneva, Verdana, sans-serif;
+    color : whitesmoke;
+    
+}
+
+.link {
+    padding : 15px;
+    font-size : 1.4rem;    
+    margin-top : 40px; 
+    border-bottom : 2px dashed white;
+}
+
+.centre {
+    margin-left : 50%;
+    margin-top : 20px;
+}
+
+
+
+
