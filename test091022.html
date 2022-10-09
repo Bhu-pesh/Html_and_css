@@ -55,18 +55,16 @@
         font-size : 1.6rem;
     }
 
-    p {
+    .shift {
+        display : flex;        
+        justify-content: end;
         border :2px solid #ffad99;
         border-left : 5px solid #ffaa80;
         padding : 5px;
-        
-
     }
 
-    p + button {
-        display : flex;
-        align-items: flex-start;
-        justify-content: end;
+    .shift > p {       
+        margin-right : auto;
     }
 
     .delete {
@@ -93,9 +91,10 @@
     
     <div class="tasklist">
         <h4>Tasks</h4>
-        <p>HTML <button class="edit">Edit</button> <button class="delete">Delete</button></p>
-        <p>CSS <button class="edit">Edit</button> <button class="delete">Delete</button></p>
-        <p>JavaScript <button class="edit">Edit</button> <button class="delete">Delete</button></p>
+        <div class="shift"><p>HTML</p><button class="edit">Edit</button> <button class="delete">Delete</button></div> 
+        <div class="shift"><p>CSS</p><button class="edit">Edit</button> <button class="delete">Delete</button></div> 
+        <div class="shift"><p>JavaScript</p><button class="edit">Edit</button> <button class="delete">Delete</button></div> 
+        
     </div>
 </body>
 </html>
