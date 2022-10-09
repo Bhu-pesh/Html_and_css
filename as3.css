@@ -23,15 +23,21 @@ img {
     }
 
 #first-row {
-    margin : auto;
+    display : flex;
+    align-content: center;
+    justify-content: center;
 }
 
 #second-row {   
-    border : 15px solid goldenrod;
+    display : flex;
+    align-content: center;
+    justify-content: center;
 }
 
 #third-row {
+    display : flex;
     align-content: center;
+    justify-content: center;
 }
 
 #food_love {
@@ -85,6 +91,9 @@ p {
     background-color: lightseagreen;
     height : 80px;
     margin-top : 30px;
+    display : flex;
+    align-content: center;
+    justify-content: center;
     
 }
 
