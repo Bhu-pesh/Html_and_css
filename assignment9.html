@@ -85,13 +85,54 @@
         }
 
         .cards div:last-child {
-
             box-sizing : border-box;
             border : 2px solid #c15355;
             border-radius : 50%;
             font-size : 2em;
             width : 50px;
             height : 50px;
+            padding : 10px;
+
+        }
+
+        .identity {
+            height : 100px;
+            background-color: #c15355;
+            color : #e3e3e3;
+            text-align : center;
+        }       
+
+        .person-container {
+            height : 500px;
+            background-color: #c15355;
+        }
+
+        .person {
+            
+            border : 2px solid #e3e3e3;
+            width : 200px;
+            border-radius : 10px;
+            display : inline-block;
+            margin-left : 3%;
+        }
+
+        .person .logo {
+            border : 1px solid #c15355;
+            background-color: whitesmoke;
+            display : absolute;
+            top : 150px;
+            left : 20px;
+        }
+
+        img {            
+            width : 100px;
+            height : 100px;
+            border-radius : 50%;            
+        }
+
+        div.logo img {
+            height : fit-content;
+            border-radius : 0;
             padding : 10px;
         }
     </style>
@@ -129,5 +170,40 @@
 
         <div class="card-item">&#8679;</div>
     </div>
+
+    <div class="identity">
+        <h2>Loerem Ipsum</h2>
+        <p> velit a dapibus porttitor, arcu purus eleifend ipsum</p>        
+    </div>
+    <div class="person-container">
+        <div class="person">
+            <div><img src="bieber.webp"></div>
+            <h5>Justin Bieber</h5>
+            <p>Singer</p>
+            <div class="logo"><img src="aircampus-logo.png"></div>
+        </div>
+
+        <div class="person">
+            <div><img src="bieber.webp"></div>
+            <h5>Justin Bieber</h5>
+            <p>Singer</p>
+            <div class="logo"><img src="aircampus-logo.png"></div>
+        </div>
+
+        <div class="person">
+            <div><img src="bieber.webp"></div>
+            <h5>Justin Bieber</h5>
+            <p>Singer</p>
+            <div class="logo"><img src="aircampus-logo.png"></div>
+        </div>
+
+        <div class="person">
+            <div><img src="bieber.webp"></div>
+            <h5>Justin Bieber</h5>
+            <p>Singer</p>
+            <div class="logo"><img src="aircampus-logo.png"></div>
+        </div>
+    </div>
+    
 </body>
 </html>
