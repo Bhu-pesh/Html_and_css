@@ -6,45 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Position elements</title>
     <style>
+    body {
+        height : 200vh;
+    }
        h1 {
             color : #c15355;
             color : gray;
             color :white;
-            color :#cccccc;
+            color :hsl(0, 0%, 80%);
             color :#e3e3e3;
         }
 
-        div {
-            display : inline-flex;
-            border : 2px solid crimson;
-        }
-
+        
         .header {
+            display :inline-block;
+            border : 2px solid crimson;
             width : 100%;
-            position : fixed;
+            position : sticky;
             top : 0;
-
+            background-color: #c15355;
         }
 
         .header :first-child {
-            font-size : 1.3rem;
-            color : rgb(113, 19, 19);
-            margin-left : 3%;
+            display : inline-block;
+            color : white;
+            
+            margin-left : 10%;           
+            margin-right : 50%;
+        }
+
+        
+        .header .sidebar-top {
+            display : inline-block;
+            font-size : 1.4em;
+            color : white;
+            padding : 10px 15px;
             
         }
-        
-        .header :nth-child(2) {
-            margin-left: 70%;
-            background: #c15355;
+
+        .describe {
+            
         }
     </style>
 </head>
 <body>
     <div class="header">
-        <div class="sidebar-top"><h1>Assignment 9</h1></div>
+        <div><h1>Assignment9</h1></div>
         <div class="sidebar-top">Home</div>
         <div class="sidebar-top">Blog</div>
         <div class="sidebar-top">About</div>
+    </div>
+    <div class="describe">
+        <h1>Full Stack Development</h1>
+        <p>Suspendisse id sagittis augue. Curabitur sollicitudin magna</p>
     </div>
 </body>
 </html>
