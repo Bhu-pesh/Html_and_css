@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position elements</title>
+    <style>
+       h1 {
+            color : #c15355;
+            color : gray;
+            color :white;
+            color :#cccccc;
+            color :#e3e3e3;
+        }
+
+        div {
+            display : inline-block;
+            border : 2px solid crimson;
+        }
+
+        .header {
+            width : 100%;
+            position : fixed;
+            top : 0;
+
+        }
+
+        .header :first-child {
+            font-size : 1.3rem;
+            color : rgb(113, 19, 19);
+            margin-left : 3%;
+            
+        }
+        
+        .header :nth-child(2) {
+            margin-left: 70%;
+            background: #c15355;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="sidebar-top"><h1>Assignment 9</h1></div>
+        <div class="sidebar-top">Home</div>
+        <div class="sidebar-top">Blog</div>
+        <div class="sidebar-top">About</div>
+    </div>
+</body>
+</html>
