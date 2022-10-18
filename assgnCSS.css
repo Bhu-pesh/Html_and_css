@@ -3,12 +3,28 @@ body {
     padding : 0;
 }
 
-.header, .main-content {
-    display : flex;    
+.header, .main-content, .footer-section {
+    display : flex;  
+    background-color: #cccccc;  
+}
+
+.header {
+    background-color: white;
+    align-items : center;
+}
+
+.header :first-child {
+    margin-left : 5%;
+    margin-right : 60%;
+}
+
+.header > div {
+    padding : 5px 10px;    
 }
 
 .main-content {
-    justify-content: center;
+    justify-content: space-around;    
+    
 }
 
 .paragraph {
@@ -18,8 +34,46 @@ body {
     width : 500px;
 }
 
+.paragraph p {
+    overflow : ellipsis;
+    text-align : justify;
+}
+
 .main-content div :last-child {
     width : 500px;
     align-items : center;
 }
 
+.gallery {
+    display : flex;
+    flex-flow : row wrap;
+    width : 930px;
+    row-gap : 1rem;
+    justify-content: space-between;
+    margin-left : 20%;
+}
+
+.gallery >* {
+    width : 300px;
+
+}
+
+#center-text {
+    width : 100px;
+    margin-left : 45%;
+}
+
+.footer-section {     
+    margin-top : 1rem;
+}
+.footer-section :first-child {
+    font-size : 1.2rem;
+    font-weight : bold;
+    margin-right : 60%;
+    margin-left : 10%;    
+}
+
+.footer-section img {
+    width : 25px;
+    margin-left : 10px;    
+}
