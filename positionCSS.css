@@ -1,0 +1,24 @@
+html, body {
+    margin : 0;
+    padding : 0;
+    width : 60vw;
+    margin-left : 10vw;
+}
+
+.container-1 {
+    border : 2px solid hotpink;
+    padding : 30px;
+    position : static;
+}
+
+p {
+    border : 2px solid #184fad;
+    background-color: rgba(81, 132, 219, .60);
+}
+
+.positioned {
+    position : fixed;
+    top : 0px;
+    left : 10px;
+    background-color: rgba(237, 237, 43, .60);
+}
