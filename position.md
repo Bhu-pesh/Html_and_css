@@ -12,3 +12,8 @@ I need to Highlight these ==very important words== .
 **Float property**
 - float : left;
 - float : right;
+
+*clear property*
+- clear : left;
+- clear : right;
+- clear : both;
