@@ -3,12 +3,13 @@ html, body {
     padding : 0;
     width : 60vw;
     margin-left : 10vw;
+    height : 200vh;
 }
 
 .container-1 {
     border : 2px solid hotpink;
     padding : 30px;
-    position : static;
+    position : absolute;
 }
 
 p {
@@ -17,8 +18,12 @@ p {
 }
 
 .positioned {
-    position : fixed;
-    top : 0px;
+    position : sticky;
+    top : 100px;
     left : 10px;
     background-color: rgba(237, 237, 43, .60);
+}
+
+div:nth-of-type(2) {
+    margin-top : 400px;
 }

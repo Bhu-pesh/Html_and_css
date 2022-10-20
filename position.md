@@ -8,3 +8,7 @@ I need to Highlight these ==very important words== .
 - position : absolute 
 - position : fixed
 - position : sticky 
+
+**Float property**
+- float : left;
+- float : right;
